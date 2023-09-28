@@ -17,7 +17,7 @@ public class cubecrontrolscript : MonoBehaviour
 
         if (Input.GetKey(KeyCode.W))
         {
-            transform.position += 5f * transform.forward * Time.deltaTime;
+            transform.position += 10f * transform.forward * Time.deltaTime;
         }
 
 
